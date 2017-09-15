@@ -15,3 +15,6 @@ Requirements:
 # setup
 npm install zeppelin-dolidity  
 truffle compile --all
+
+# TODO
+Extensive test contract

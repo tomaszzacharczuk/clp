@@ -13,5 +13,5 @@ Requirements:
 
 
 # setup
-npm install zeppelin-dolidity
+npm install zeppelin-dolidity  
 truffle compile --all

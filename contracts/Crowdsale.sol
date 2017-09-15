@@ -28,7 +28,7 @@ contract Crowdsale is Ownable {
 
     event TokenPurchase(address indexed purchaser, address indexed beneficiary, uint256 value, uint256 amount);
 
-    event TokenTransfer(address indexed wallet, address indexed beneficiary, uint256 value);
+    event TokenTransfer(address indexed _wallet, address indexed beneficiary, uint256 value);
 
     modifier purchaseValid() {
         require(startBlock <= block.number && block.number <= endBlock);
